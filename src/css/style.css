@@ -34,5 +34,19 @@ body{
 .cartao .minhas-informacoes img {
   width: 96px;
   height: 96px;
-  border-radius: 50%;
+  border-radius: 50px;
+  border: #02d08f solid 4px;
+}
+
+.cartao .minhas-informacoes .nome{
+  font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo{
+  font-size: 20px;
+  color: #b8bbc5;
+}
+
+.cartao .conteudo {
+  background-color: red;
 }
