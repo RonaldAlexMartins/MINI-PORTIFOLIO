@@ -78,6 +78,11 @@ body{
 .informacoes-abas .informacao {
   min-height: 260px;
   padding: 15px;
+  display: none;
+}
+
+.informacoes-abas .informacao.selecionado {
+  display: block;
 }
 
 .informacoes-abas .sub-titulo {
@@ -131,3 +136,4 @@ body{
 .redes-sociais li a:hover{
   opacity: 0.8;
 }
+
